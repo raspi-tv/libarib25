@@ -8,6 +8,8 @@
 
 #if defined(WIN32)
 	#include <windows.h>
+#else
+	#include <stdint.h>
 #endif
 #include <winscard.h>
 
